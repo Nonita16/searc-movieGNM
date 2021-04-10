@@ -1,0 +1,74 @@
+body{
+    /*background-color: darkgrey;*/
+    background: linear-gradient(to bottom, #000046, #1cb5e0);    
+    height: 100vh;
+    overflow-y: hidden;
+    font-size: .7rem !important;
+}
+
+.Header-title{
+    color: white;
+    margin: 5%;
+    text-align: center;
+}
+.Search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.input {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 20px;
+}
+
+.MedialList{
+    height: 78vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-width: 700px;
+    margin: auto;
+}
+
+.Footer {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+    padding: 1%;
+}
+.card{
+    flex-direction: unset !important;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.3) !important;
+    color: #fff;
+}
+
+.card-text{
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.rating > span:before {
+    content: "\2605";
+    position: absolute;
+ }
+
+ .card-img{
+     width: 100px !important;
+ }
