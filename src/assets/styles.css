@@ -1,6 +1,5 @@
 body{
-    /*background-color: darkgrey;*/
-    background: linear-gradient(to bottom, #000046, #1cb5e0);    
+   background: linear-gradient(to bottom, #00416a, #e4e5e6);
     height: 100vh;
     overflow-y: hidden;
     font-size: .7rem !important;
@@ -8,7 +7,7 @@ body{
 
 .Header-title{
     color: white;
-    margin: 5%;
+    margin: 2%;
     text-align: center;
 }
 .Search {
@@ -30,15 +29,18 @@ body{
     margin-bottom: 20px;
     outline: none;
     padding: 0px 20px;
+    width: 100%;
 }
 
 .MedialList{
     height: 78vh;
     overflow: scroll;
     overflow-x: hidden;
-    max-width: 700px;
     margin: auto;
 }
+.MedialList::-webkit-scrollbar {
+    display: none;
+  }
 
 .Footer {
     align-items: center;
@@ -57,6 +59,7 @@ body{
     padding: 2%;
     background-color: rgba(0,0,0,0.3) !important;
     color: #fff;
+    height: 95%;
 }
 
 .card-text{
@@ -67,6 +70,9 @@ body{
 .rating > span:before {
     content: "\2605";
     position: absolute;
+ }
+ .rating span{
+    color: #FFA41C;
  }
 
  .card-img{
