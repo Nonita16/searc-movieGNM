@@ -18,7 +18,7 @@ const Home = () => {
 
 
     return (
-        <div>
+        <div className="container">
             <Search search={search} searchInput={searchInput} handleSearch={handleSearch} />
             <MovieList movies={movies}/>
         </div>
