@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 import image from '../assets/avengers.jpeg' 
 
 const MovieItem = (props) => {
+
     let date = props.release_date ? props.release_date.substring(0,4) : "";
     return (
         <Card className="mb-2">
@@ -16,8 +17,8 @@ const MovieItem = (props) => {
                    {props.overview}
                 </Card.Text>
                 <div className="rating">
-                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-                        &nbsp;&nbsp;&nbsp;{props.vote_count} reviews
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> 
+                    &nbsp;&nbsp;&nbsp;{props.vote_count} reviews
                 </div>
             </Card.Body>  
         </Card>
