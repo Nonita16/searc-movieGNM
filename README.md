@@ -2,14 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In order to run this project:
-> Run npm install : **install the dependancies**
-Run npm start  : **Run the dev server**
-Run npm run test : **Run the test suites**
+:wave: In order to run this project:
+>1.  Run npm install : **install the dependancies**
+>2. Run npm start  : **Run the dev server**
+>3. Run npm run test : **Run the test suites**
 
 
 
-##**Challenges**: :muscle:
+##Challenges  :muscle:
 
 Any project can be improved in many ways but if you do not set a limit, you will never finish it, the hardest part was to determinate were to stop since you can always improve the code and features. 
 
@@ -21,7 +21,7 @@ Any project can be improved in many ways but if you do not set a limit, you will
 - Until which stage is ok to stop the optimization? (use of useMemo and other features of hooks)
 
 
-##Future improvements :sunglasses:
+##Future improvements  :sunglasses:
 
 - Implement more actions for more endpoints
 - Login
