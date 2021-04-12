@@ -9,7 +9,7 @@ Run npm run test : **Run the test suites**
 
 
 
-##**Challenges**: :muscle:
+##Challenges  :muscle:
 
 Any project can be improved in many ways but if you do not set a limit, you will never finish it, the hardest part was to determinate were to stop since you can always improve the code and features. 
 
@@ -21,7 +21,7 @@ Any project can be improved in many ways but if you do not set a limit, you will
 - Until which stage is ok to stop the optimization? (use of useMemo and other features of hooks)
 
 
-##Future improvements :sunglasses:
+##Future improvements  :sunglasses:
 
 - Implement more actions for more endpoints
 - Login
